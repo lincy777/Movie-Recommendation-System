@@ -1,0 +1,2 @@
+# Movie-Recommendation-System
+ Supervised learning based on deep learning, using gradient descent, ALS, LFM algorithm, using AngularJS2 to generate front-end framework, database is MongoDB, using ElasticSearch as search server, Redis as cache database, including Spark's offline statistics service, Azkaban's job scheduling service , Flume's log collection service, Kafka as a message buffer service, Scala is used globally, and Java is deployed as Tomcat to achieve offline recommendation, real-time recommendation, and server cold start problem solving.

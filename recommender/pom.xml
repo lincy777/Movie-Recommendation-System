@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>MovieRecommendSystem</artifactId>
-        <groupId>com.example</groupId>
+        <groupId>com.IronmanJay</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,13 +12,12 @@
     <artifactId>recommender</artifactId>
     <packaging>pom</packaging>
     <modules>
-<!--        <module>DataLoader</module>-->
         <module>DataLoader</module>
         <module>StatisticsRecommender</module>
         <module>OfflineRecommender</module>
         <module>StreamingRecommender</module>
-        <module>KafkaStreaming</module>
         <module>ContentRecommender</module>
+        <module>KafkaStream</module>
     </modules>
 
     <dependencyManagement>
@@ -56,6 +55,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <build>
         <plugins>
             <!-- 父项目已声明该plugin，子项目在引入的时候，不用声明版本和已经声明的配置 -->
@@ -65,4 +65,6 @@
             </plugin>
         </plugins>
     </build>
+
+
 </project>
